@@ -1,4 +1,4 @@
-# Acc Nick Counter
+# Path of Exile Trade Aggregate
 
 Chrome extension that scans the current page every 3 seconds for strings like:
 
@@ -13,7 +13,7 @@ It counts identical account names and shows accounts that appear more than once 
 1. Open `chrome://extensions/`.
 2. Enable `Developer mode`.
 3. Click `Load unpacked`.
-4. Select this folder: `C:\Users\Keril\acc-counter-extension`.
+4. Select this folder: `C:\...\acc-counter-extension`.
 
 ## Notes
 

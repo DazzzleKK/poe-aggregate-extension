@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Acc Nick Counter",
+  "version": "1.0.0",
+  "description": "Finds Acc: nick#1234 entries on pages and shows the most repeated accounts.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.pathofexile.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
